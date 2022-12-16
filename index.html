@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   
   <title>Growfy</title>
@@ -24,30 +23,31 @@
           <img src="./img/logo.svg" alt="logo">
         </a>
         <nav class="header__menu menu">
-          <div class="menu__body"></div>
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="" class="menu__link">Home</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">About</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Pages</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">Services</a>
-            </li>
-          </ul>
-          <a href="" class="header__cart cart-header">
-            <span class="cart-header__text">Cart</span>
-            <span class="cart-header__quantity">0</span>
-          </a>
-          <a href="" class="header__button button">Get started</a>
-          <button class="icon-menu" type="button">
-            <span></span>
-          </button>
+          <div class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Pages</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Services</a>
+              </li>
+            </ul>
+          </div>
         </nav>
+        <a href="" class="header__cart cart-header">
+          <span class="cart-header__text">Cart</span>
+          <span class="cart-header__quantity">0</span>
+        </a>
+        <a href="" class="header__button button">Get started</a>
+        <button class="icon-menu" type="button">
+          <span></span>
+        </button>
       </div>
     </header>
     
@@ -537,7 +537,16 @@
         </div>
       </div>
     </footer>
+
+    <!-- ?Кнопка Вверх -->
+    <div id="up" class="btn__up">
+      <span>&#10148;</span>
+    </div>
   </div>
-  <script src="./js/script.js"></script>
+
+  
+  
+  <script src="./js/script.js""></script>
+
 </body>
 </html>
