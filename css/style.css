@@ -6,7 +6,7 @@ body {
   font-weight: 300;
   color: #9c9c9c;
 }
-li a{
+a{
   text-decoration: none;
 }
 
@@ -66,6 +66,14 @@ li a{
 /* ============================= */
 /* !HEADER */
 /* ============================= */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0d0d11;
+  z-index: 10;
+}
 .header__container {
   display: flex;
   column-gap: 35px;
@@ -1052,13 +1060,16 @@ li a{
   width: 60px;
   height: 60px;
   bottom: 30px;
-  right: 20px;
-  background-color: #19191d;
+  right: 50px;
+  background-color: #45454a;
   border-radius: 50%;
   color: #FFFFFF;
   cursor: pointer;
 }
-
+#up:hover {
+  background-color: #262629;
+  transition: 0.8s ease 0s;
+}
 #up span {
   display: inline-block;
   font-size: 30px;
